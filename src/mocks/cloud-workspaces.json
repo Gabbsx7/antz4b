@@ -1,0 +1,77 @@
+[
+  {
+    "id": "ws1",
+    "name": "Análise de Churn",
+    "type": "ml",
+    "status": "active",
+    "resources": {
+      "cpu": 4,
+      "memory": 16,
+      "storage": 100
+    },
+    "runtime": "Python 3.11 + Jupyter",
+    "createdAt": "2024-01-15T09:00:00Z",
+    "lastUsed": "2024-01-22T14:30:00Z",
+    "collaborators": ["Bruno Costa", "Alice Silva"]
+  },
+  {
+    "id": "ws2",
+    "name": "Dashboard Executivo",
+    "type": "analytics",
+    "status": "active",
+    "resources": {
+      "cpu": 2,
+      "memory": 8,
+      "storage": 50
+    },
+    "runtime": "R 4.3 + Shiny",
+    "createdAt": "2024-01-10T10:00:00Z",
+    "lastUsed": "2024-01-22T16:15:00Z",
+    "collaborators": ["Alice Silva"]
+  },
+  {
+    "id": "ws3",
+    "name": "Relatórios Financeiros",
+    "type": "reporting",
+    "status": "stopped",
+    "resources": {
+      "cpu": 1,
+      "memory": 4,
+      "storage": 25
+    },
+    "runtime": "Power BI Service",
+    "createdAt": "2024-01-12T11:00:00Z",
+    "lastUsed": "2024-01-20T09:45:00Z",
+    "collaborators": ["Alice Silva", "Carlos Mendes"]
+  },
+  {
+    "id": "ws4",
+    "name": "Modelo de Precificação",
+    "type": "ml",
+    "status": "starting",
+    "resources": {
+      "cpu": 8,
+      "memory": 32,
+      "storage": 200
+    },
+    "runtime": "Python 3.11 + TensorFlow",
+    "createdAt": "2024-01-18T13:00:00Z",
+    "lastUsed": "2024-01-22T11:20:00Z",
+    "collaborators": ["Bruno Costa", "Diana Ferreira"]
+  },
+  {
+    "id": "ws5",
+    "name": "Análise de Risco",
+    "type": "analytics",
+    "status": "active",
+    "resources": {
+      "cpu": 2,
+      "memory": 8,
+      "storage": 75
+    },
+    "runtime": "Python 3.11 + Pandas",
+    "createdAt": "2024-01-14T15:00:00Z",
+    "lastUsed": "2024-01-22T13:10:00Z",
+    "collaborators": ["Bruno Costa"]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "e1",
+    "type": "alert",
+    "severity": "high",
+    "title": "Margem caiu 2,1pp na BU Sul",
+    "body": "A margem bruta da unidade Sul apresentou queda significativa nos últimos 7 dias. Principais fatores: aumento de 8% no custo de matéria-prima e desconto promocional de 15% em produtos categoria A.",
+    "timestamp": "2025-11-07T15:30:00Z",
+    "cta": {
+      "label": "Abrir Pricing",
+      "href": "/colony/pricing-margin?bu=Sul"
+    },
+    "status": "open"
+  },
+  {
+    "id": "e2",
+    "type": "insight",
+    "severity": "medium",
+    "title": "DSO subiu para 54 dias",
+    "body": "O prazo médio de recebimento aumentou 8% no último mês. Concentração em clientes categoria B e C com histórico de atraso.",
+    "timestamp": "2025-11-07T14:15:00Z",
+    "cta": {
+      "label": "Ver AP/AR",
+      "href": "/colony/ap-ar?sort=days_overdue"
+    },
+    "status": "open"
+  },
+  {
+    "id": "e3",
+    "type": "task",
+    "severity": "medium",
+    "title": "Criar régua de cobrança 30–60 dias",
+    "body": "Usar template SMB v2 para clientes com atraso entre 30-60 dias. Estimativa: 47 clientes afetados, R$ 1.2M em recebíveis.",
+    "timestamp": "2025-11-07T13:45:00Z",
+    "status": "open"
+  },
+  {
+    "id": "e4",
+    "type": "alert",
+    "severity": "high",
+    "title": "Burn rate crítico detectado",
+    "body": "Taxa de queima atual de R$ 180k/mês com runway de apenas 9 meses. Recomendo revisão imediata do orçamento operacional.",
+    "timestamp": "2025-11-07T12:20:00Z",
+    "cta": {
+      "label": "Ver Fluxo de Caixa",
+      "href": "/colony/cashflow"
+    },
+    "status": "open"
+  },
+  {
+    "id": "e5",
+    "type": "insight",
+    "severity": "low",
+    "title": "Oportunidade de otimização fiscal",
+    "body": "Identificada possibilidade de economia de 12% em impostos através de reorganização societária. ROI estimado: R$ 45k/ano.",
+    "timestamp": "2025-11-07T11:10:00Z",
+    "status": "open"
+  }
+]

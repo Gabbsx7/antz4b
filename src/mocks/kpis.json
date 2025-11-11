@@ -1,0 +1,43 @@
+[
+  {
+    "id": "rev_month",
+    "label": "Receita (Mês)",
+    "value": 820000,
+    "deltaPct": 0.12,
+    "fmt": "currency"
+  },
+  {
+    "id": "gm",
+    "label": "Margem Bruta %",
+    "value": 0.41,
+    "deltaPct": -0.021,
+    "fmt": "percent"
+  },
+  {
+    "id": "dso",
+    "label": "DSO (dias)",
+    "value": 54,
+    "deltaPct": 0.08,
+    "fmt": "number"
+  },
+  {
+    "id": "delq",
+    "label": "Inadimplência %",
+    "value": 0.087,
+    "deltaPct": 0.014,
+    "fmt": "percent"
+  },
+  {
+    "id": "burn",
+    "label": "Burn Rate",
+    "value": -180000,
+    "deltaPct": -0.05,
+    "fmt": "currency"
+  },
+  {
+    "id": "runway",
+    "label": "Runway (meses)",
+    "value": 9,
+    "fmt": "number"
+  }
+]

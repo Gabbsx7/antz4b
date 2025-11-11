@@ -1,0 +1,77 @@
+[
+  {
+    "id": "db1",
+    "name": "antz-analytics-prod",
+    "type": "sql",
+    "status": "active",
+    "size": 128,
+    "tables": 45,
+    "connections": 12,
+    "region": "us-east-1",
+    "createdAt": "2024-01-01T00:00:00Z",
+    "lastBackup": "2024-01-22T02:00:00Z",
+    "tier": "premium"
+  },
+  {
+    "id": "db2",
+    "name": "ml-features-store",
+    "type": "nosql",
+    "status": "active",
+    "size": 256,
+    "connections": 8,
+    "region": "us-east-1",
+    "createdAt": "2024-01-05T00:00:00Z",
+    "lastBackup": "2024-01-22T02:30:00Z",
+    "tier": "standard"
+  },
+  {
+    "id": "db3",
+    "name": "timeseries-metrics",
+    "type": "timeseries",
+    "status": "active",
+    "size": 64,
+    "connections": 5,
+    "region": "us-west-2",
+    "createdAt": "2024-01-10T00:00:00Z",
+    "lastBackup": "2024-01-22T01:45:00Z",
+    "tier": "basic"
+  },
+  {
+    "id": "db4",
+    "name": "vector-embeddings",
+    "type": "vector",
+    "status": "active",
+    "size": 32,
+    "connections": 3,
+    "region": "us-east-1",
+    "createdAt": "2024-01-15T00:00:00Z",
+    "lastBackup": "2024-01-22T03:00:00Z",
+    "tier": "standard"
+  },
+  {
+    "id": "db5",
+    "name": "staging-analytics",
+    "type": "sql",
+    "status": "inactive",
+    "size": 16,
+    "tables": 12,
+    "connections": 0,
+    "region": "us-east-1",
+    "createdAt": "2024-01-08T00:00:00Z",
+    "lastBackup": "2024-01-20T02:00:00Z",
+    "tier": "basic"
+  },
+  {
+    "id": "db6",
+    "name": "backup-archive",
+    "type": "sql",
+    "status": "maintenance",
+    "size": 512,
+    "tables": 89,
+    "connections": 0,
+    "region": "us-west-2",
+    "createdAt": "2023-12-01T00:00:00Z",
+    "lastBackup": "2024-01-21T23:00:00Z",
+    "tier": "premium"
+  }
+]
